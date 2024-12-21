@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="css/cal.css">
+</head>
+<body>
+  <div class="newWhole">
+  <div class="whole-container">
+    <input type="text" class="display">
+    <div class="first-row">
+      <button id="clr-btn" onclick="clear_btn()">C</button>
+      <button class="operator" onclick="appendValue('+'); ">+</button>
+      <button class="operator" onclick="appendValue('-')">-</button>
+      <button class="operator" onclick="appendValue('*')">*</button>
+    </div>
+    <div class="second-row">
+      <button class="nums" onclick="appendValue('7')">7</button>
+      <button class="nums" onclick="appendValue('8')">8</button>
+      <button class="nums" onclick="appendValue('9')">9</button>
+      <button class="operator" onclick="appendValue('/')">/</button>
+    </div>
+    <div class="third-row">
+      <button class="nums" onclick="appendValue('4')">4</button>
+      <button class="nums" onclick="appendValue('5')">5</button>
+      <button class="nums" onclick="appendValue('6')">6</button>
+      <button class="equal" onclick="calculate()">=</button>
+    </div>
+    <div class="fourth-row">
+      <button class="nums" onclick="appendValue('1')">1</button>
+      <button class="nums" onclick="appendValue('2')">2</button>
+      <button class="nums" onclick="appendValue('3')">3</button>
+    </div>
+  </div>
+  <script src="js/cal.js"></script>
+</body>
+</html>

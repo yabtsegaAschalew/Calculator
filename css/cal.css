@@ -1,0 +1,70 @@
+.newWhole{
+  text-align: center;
+
+}
+.whole-container{
+  
+  background-color: transparent;
+  justify-content: center;
+  
+}
+.display{
+  padding: 30px;
+  border: none;
+  background-color: transparent;
+  background-color: rgb(163, 180, 174);
+}
+#clr-btn{
+  border: none;
+  border-radius: 3000px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  background-color: rgba(187, 6, 6, 0.621);
+  cursor: pointer;
+}
+#clr-btn:active{
+  background-color: rgb(199, 45, 45);
+}
+.operator{
+  border: none;
+  border-radius: 3000px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:green;
+  background-color: rgb(105, 149, 149);
+  cursor: pointer;
+}
+.operator:active{
+  background-color: rgb(91, 128, 91);
+}
+.nums{
+  border: none;
+  border-radius: 3000px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:white;
+  background-color: rgb(128, 110, 110);
+  cursor: pointer;
+}
+.nums:active{
+  background-color: rgb(94, 63, 63);
+}
+.equal{
+  padding:20px;
+  border: none;
+  border-radius: 3000px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.equal:active{
+  background-color: rgb(174, 219, 107);
+}
+.fourth-row{
+  padding-right: 55px;
+}
